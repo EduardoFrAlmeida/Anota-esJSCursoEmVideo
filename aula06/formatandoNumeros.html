@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Strings</title>
+</head>
+<body>
+<!--Formatar números Número de casas após a vírgula: toFixed(); 
+    trocar ponto por vírgula: replace(".", ",")
+    Deixar em Real ou outra moeda: variável.toLocaleString('pt-Br', {style: currency, currency:"BRL"})}`-->    
+    <script>
+        var salario = 1537.11
+        console.log(salario.toString(2).replace(".", ","))
+        console.log(`Em real seu salário é igual a:${salario.toLocaleString('pt-Br', {style: currency, currency:"BRL"})}`)
+    </script>
+<!--//  Formatar números Número de casas após a vírgula: toFixed(); 
+        trocar ponto por vírgula: replace(".", ",")
+        Deixar em Real ou outra moeda: variável.toLocaleString('pt-Br', {style: currency, currency:"BRL"})}`-->      
+</body>
+</html>
